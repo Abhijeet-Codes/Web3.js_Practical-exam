@@ -1,0 +1,20 @@
+1) Write the differences between Web3.js and Ether.js.
+Answer - Web3.js is a library collection that allows you to interact with a local or remote Ethereum node using HTTP, IPC, or WebSocket.
+Web3.js allows us to develop websites or clients that interact with the blockchain. Web3 is a name given to the third iteration of the Internet. 
+An internet built using a decentralized blockchain on the mutual ledger used by cryptocurrencies like Bitcoin.
+Web3 came in demand when Dedcentralization of the internet fundamentally means that no one company will keep and use your data. 
+It will be stored on the blockchain, secured by cryptography.
+we could be free from trusting agencies, filing complaints,
+fearing internet blackouts, and even getting cryptocurrency, for just using Web3.
+On the other hand, Ether.js is a Javascript framework based on the Bitcoin network and allow for create, send, and track transactions and interact with smart contracts. Ether.js is also a open source and has been adopted by a number of companies, including Microsoft and IBM.
+
+
+2) Demonstrate how to read data from the Smart Contract with the
+help of Web3.js.
+Answer - We need the address to locate the smart contract and interact with it. 
+The smart contract address can be fetched from the same page where we get the ABI. We just have to scroll up and see the "Contract" written under the "Profile summary".
+The smart contract address is written in front of the contract.
+
+we need to establish a connection to the Ethereum node. For that, we use Infura API.
+
+then we will go to ABI of a smart contract can be taken from 
