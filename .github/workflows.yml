@@ -1,0 +1,50 @@
+# This is a basic workflow to help you get started with Actions
+
+name: web3.js
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch: https://github.com/Abhijeet-Codes/Web3.js_Practical-exam.git
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+ I have selected the correct base branch.
+ I have performed a self-review of my own code.
+ I have commented my code, particularly in hard-to-understand areas.
+ I have made corresponding changes to the documentation.
+ My changes generate no new warnings.
+ Any dependent changes have been merged and published in downstream modules.
+ I ran npm run lint with success and extended the tests and types if necessary.
+ I ran npm run test:unit with success.
+ I ran npm run test:coverage and my test cases cover all the lines and branches of the added code.
+ I ran npm run build and tested dist/web3.min.js in a browser.
+ I have tested my code on the live network.
+ I have checked the Deploy Preview and it looks correct.
+ I have updated the CHANGELOG.md file in the root folder.
+ I have linked Issue(s) with this PR in "Linked Issues" menu.
